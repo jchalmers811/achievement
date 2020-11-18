@@ -1,7 +1,8 @@
 import Head from "next/head";
-import AchievementSearch from "../components/achievementSearch";
-import AppHeader from "../components/appHeader";
-import "../styles/index.scss";
+import AppHeader from "../components/appHeader/appHeader";
+import Search from "../containers/search/search";
+import "./index.scss";
+
 
 const Index = (props) => {
   return (
@@ -14,20 +15,15 @@ const Index = (props) => {
         <AppHeader></AppHeader>
       </header>
       <main>
-        <AchievementSearch></AchievementSearch>
+        <Search></Search>
       </main>
     </div>
   );
 };
 
-export async function getStaticProps() {
-  // Get external data from the file system, API, DB, etc.
-
-  // The value of the `props` key will be
-  //  passed to the `Index` component
-  // return {
-  //   props: data,
-  // };
-}
+// export async function getStaticProps() {
+//   // Get external data from the file system, API, DB, etc.
+//   return {}
+// }
 
 export default Index;
