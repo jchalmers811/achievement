@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-achievement-dev-154617-authRole",
+      "UnauthRoleArn": "arn:aws:iam::554564211330:role/amplify-achievement-dev-154617-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::554564211330:role/amplify-achievement-dev-154617-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-achievement-dev-154617-deployment",
+      "UnauthRoleName": "amplify-achievement-dev-154617-unauthRole",
+      "StackName": "amplify-achievement-dev-154617",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:554564211330:stack/amplify-achievement-dev-154617/e7432700-2c6c-11eb-ba9f-06b67089516e",
+      "AmplifyAppId": "di9v10qddlul0"
+    },
+    "categories": {
+      "auth": {
+        "achievement274ab3aa": {}
+      }
+    }
+  }
+}
