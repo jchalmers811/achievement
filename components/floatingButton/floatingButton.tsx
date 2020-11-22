@@ -6,7 +6,7 @@ const FloatingButton = (props) => {
   const { handleClick, text } = props;
 
   
-  return <button className={styles.floatingButton} onClick={handleClick}>{text}</button>;
+  return <button  className={styles.floatingButton} onClick={handleClick}>{text}</button>;
 };
 
 FloatingButton.propTypes = {

@@ -9,7 +9,10 @@
     "storybook": "start-storybook -p 6006 -c .storybook"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.29",
     "@zeit/next-sass": "^1.0.1",
+    "aws-amplify": "^3.3.9",
+    "emotion": "^11.0.0",
     "mongoose": "^5.10.14",
     "next": "10.0.1",
     "node-sass": "^4.14.1",

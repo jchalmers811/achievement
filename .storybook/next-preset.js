@@ -28,22 +28,19 @@ module.exports = {
     });
     newConfig.resolve.extensions.push(".ts", ".tsx");
 
+    // Using SCSS modules
     newConfig.module.rules.push({
-      test: /\.(s*)css$/,
+      test: /\.module\.(s*)css$/,
       use: [
         "style-loader",
         {
-          loader: 'css-loader',
+          loader: "css-loader",
           options: {
-            modules: true
-          }
+            importLoaders: 1,
+            modules: true,
+          },
         },
-        {
-          loader: 'sass-loader',
-          options: {
-            modules: true
-          }
-        },
+        "sass-loader",
       ],
       include: path.resolve(__dirname, "../components"),
     });
